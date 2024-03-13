@@ -1,14 +1,14 @@
 import React from "react";
 import "./Header.css";
-import logo from "../Assets/logo.svg";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faCartShopping} from "@fortawesome/free-solid-svg-icons"
+import logo from "../Assets/SwiftFit-logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 export default function Header() {
   return (
     <div>
       <header>
         <nav className="navbar">
-          <div>
+          <div className="logo-container">
             <li>
               <a href="/">
                 <img className="logo" src={logo} alt="" />
@@ -35,7 +35,12 @@ export default function Header() {
               <a href="/contact">Contact</a>
             </li>
           </ul>
-          <button><FontAwesomeIcon className="cartbtn" icon={faCartShopping} /></button>
+          <button>
+            <FontAwesomeIcon
+              className="cartbtn"
+              icon={faCartShopping}
+            />
+          </button>
         </nav>
       </header>
     </div>

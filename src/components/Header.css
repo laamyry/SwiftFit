@@ -6,7 +6,12 @@
   display: flex;
   padding: 1rem;
   gap: 2rem;
-
+}
+.navbar ul li a {
+  transition: 0.5s ease-in-out;
+}
+.navbar ul li a:hover {
+  color: var(--second-color);
 }
 .navbar ul li,
 a {
@@ -16,18 +21,25 @@ a {
   align-self: center;
   text-transform: uppercase;
   font-weight: 600;
-
 }
 .navbar li {
   list-style: none;
 }
-.logo{
-    width: 90px;
+.logo-container {
+  display: flex;
+  align-items: center;
 }
-.fa-cart-shopping{
-    color: black;
+.logo {
+  width: 120px;
+  display: flex;
+  align-self: center;
 }
-button{
-    all: unset;
-    cursor: pointer;
+.fa-cart-shopping {
+  color: black;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+button {
+  all: unset;
+  cursor: pointer;
 }
