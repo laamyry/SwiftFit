@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar ul {
+  display: flex;
+  padding: 1rem;
+  gap: 2rem;
+
+}
+.navbar ul li,
+a {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+.navbar li {
+  list-style: none;
+}
+.logo{
+    width: 90px;
+}
+.fa-cart-shopping{
+    color: black;
+}
+button{
+    all: unset;
+    cursor: pointer;
+}
