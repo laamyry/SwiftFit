@@ -43,9 +43,8 @@ button {
   all: unset;
   cursor: pointer;
 }
-@media(max-width :1000px){
+@media (max-width: 1000px) {
   .navbar ul {
     display: none;
-    
   }
 }
