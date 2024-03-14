@@ -1,5 +1,12 @@
 import React from "react";
 import logo from "../Assets/SwiftFit-lighter.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faTiktok,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
   return (
     <div>
@@ -31,7 +38,6 @@ export default function Footer() {
                 <a href="/contact">Contact</a>
               </li>
             </ul>
-
           </div>
           <div className="flex self-center py-2 h-[90%] border-r-2" />
           <div className="flex flex-1 p-5 h-full self-center text-center">
@@ -52,8 +58,38 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex self-center py-2 h-[90%] border-r-2" />
-          <div className="flex-1 p-5">hafsa</div>
-          <div className=" border-r-2" />
+          <div className="flex-1 p-5 self-center">
+            <div className="h-full">
+              <ul className="flex justify-center gap-5 m-3 text-xl">
+                <li>
+                  <a href="#facebook">
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </a>
+                </li>
+                <li>
+                  <a href="#Instagram">
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </a>
+                </li>
+                <li>
+                  <a href="#Twitter">
+                    <FontAwesomeIcon icon={faXTwitter} />
+                  </a>
+                </li>
+                <li>
+                  <a href="#Tiktok">
+                    <FontAwesomeIcon icon={faTiktok} />
+                  </a>
+                </li>
+              </ul>
+              <div className="flex justify-center self-center">
+              <h1 className="uppercase font-semibold text-[var(--second-color)]">
+                Lorem ipsum dolor sit amet
+              </h1>
+            </div>
+            </div>
+
+          </div>
         </div>
       </footer>
     </div>
