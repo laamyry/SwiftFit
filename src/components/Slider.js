@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import image1 from "../Assets/1.jpeg";
+import image2 from "../Assets/2.jpg";
+import image3 from "../Assets/3.jpg";
+import image4 from "../Assets/4.jpeg";
+import image5 from "../Assets/5.jpg";
 import "./Slider.css";
 import {
   BsChevronCompactLeft,
@@ -8,19 +13,19 @@ import { RxDotFilled } from "react-icons/rx";
 export default function Slider() {
   const slides = [
     {
-      url: "https://picsum.photos/id/237/1000/400",
+      url: image1,
     },
     {
-      url: "https://picsum.photos/id/10/1000/400",
+      url: image2,
     },
     {
-      url: "https://picsum.photos/id/3/1000/400",
+      url: image3,
     },
     {
-      url: "https://picsum.photos/id/7/1000/400",
+      url: image4,
     },
     {
-      url: "https://picsum.photos/id/12/1000/400",
+      url: image5,
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -44,6 +49,7 @@ export default function Slider() {
       <div
         style={{
           backgroundImage: `url(${slides[currentIndex].url})`,
+          backgroundPosition: "center top",
         }}
         className="w-full h-full bg-cover bg-center duration-500"
       ></div>

@@ -2,11 +2,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Slider from "../components/Slider";
 import image from "../Assets/image.jpg";
+import Hotsales from "../components/Hotsales";
 export default function Home() {
   return (
     <>
       <Header />
-      <Slider />
+      <Slider className="z-0"/>
       <div className="container mt-10 flex pb-2">
         <div className="image flex-1 text-center object-cover	overflow-hidden rounded-r-3xl">
           <img src={image} alt="" />
@@ -32,6 +33,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <Hotsales/>
       <Footer />
     </>
   );

@@ -43,8 +43,43 @@ button {
   all: unset;
   cursor: pointer;
 }
+.menuIcon{
+  display: none;
+}
+@keyframes popup{
+  0% {
+    scale: 0;
+  }
+  70% {
+    scale: 1.1;
+  }
+  100% {
+    scale: 1;
+  }
+}
+@keyframes opacity{
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.opacity-animtion{
+  animation: opacity 0.2s 1 ease-in-out;
+}
+.popup{
+  animation: popup 0.77s 1 ease-in-out;
+}
 @media (max-width: 1000px) {
   .navbar ul {
     display: none;
+  }
+  .menuIcon{
+    display: block;
   }
 }
