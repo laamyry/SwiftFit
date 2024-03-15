@@ -72,7 +72,14 @@ export default function Slider() {
             onClick={() => goToSlide(slideIndex)}
             className="text-2xl cursor-pointer"
           >
-            <RxDotFilled />
+            <RxDotFilled
+              style={{
+                color:
+                  slideIndex === currentIndex
+                    ? "var(--second-color)"
+                    : "black", // Change 'red' to your desired color for the current dot
+              }}
+            />
           </div>
         ))}
       </div>

@@ -7,12 +7,13 @@ import {
   faTiktok,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import "./Footer.css"
 export default function Footer() {
   return (
     <div>
       <footer>
         <div className="bg-[var(--primary-color)] h-80 mt-8 text-[var(--third-color)] flex">
-          <div className="flex flex-1 p-5 justify-center h-full self-center">
+          <div className="footer-logo flex flex-1 p-5 justify-center h-full self-center">
             <img
               className="w-40 self-center"
               src={logo}
@@ -41,26 +42,25 @@ export default function Footer() {
           </div>
           <div className="flex self-center py-2 h-[90%] border-r-2" />
           <div className="flex flex-1 p-5 h-full self-center text-center">
-            <div className="flex flex-col self-center">
-              <h1 className="text-2xl uppercase mb-5 font-bold text-[var(--second-color)]">
-                Lorem ipsum dolor sit.
+            <div className="flex flex-col self-center ">
+              <h1 className="footer-title uppercase mb-5 font-bold text-[var(--second-color)]">
+                Stay Connected with SwiftFit
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Pariatur earum, ad facilis
-                excepturi provident eaque ipsum delectus
-                fuga at porro voluptates doloribus
-                voluptatum incidunt distinctio dolore
-                cupiditate aut inventore nobis magni! Nihil
-                voluptatum ratione exercitationem
-                doloremque? Fuga obcaecati sit itaque.
+              <p className="footer-content">
+                Stay updated on the latest fitness trends
+                and exclusive offers by connecting with
+                SwiftFit. Follow us on social media and
+                subscribe to our newsletter for fitness
+                tips, motivation, and special promotions.
+                Join our community today to achieve your
+                fitness goals with SwiftFit.
               </p>
             </div>
           </div>
           <div className="flex self-center py-2 h-[90%] border-r-2" />
           <div className="flex-1 p-5 self-center">
             <div className="h-full">
-              <ul className="flex justify-center gap-5 m-3 text-xl">
+              <ul className="flex flex-wrap justify-center gap-5 m-3 text-xl">
                 <li>
                   <a href="#facebook">
                     <FontAwesomeIcon icon={faFacebook} />
@@ -83,12 +83,11 @@ export default function Footer() {
                 </li>
               </ul>
               <div className="flex justify-center self-center">
-              <h1 className="uppercase font-semibold text-[var(--second-color)]">
-                Lorem ipsum dolor sit amet
-              </h1>
+                <h1 className="text-center footer-icons uppercase font-semibold text-[var(--second-color)]">
+                  Lorem ipsum dolor sit amet
+                </h1>
+              </div>
             </div>
-            </div>
-
           </div>
         </div>
       </footer>

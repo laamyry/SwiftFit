@@ -47,9 +47,11 @@ export default function Hotsales() {
   };
   return (
     <div className=" text-center justify-center overflow-hidden">
-      <h3 className="text-3xl uppercase font-bold text-[var(--second-color)] overflow-hidden py-5">
-        Hot Sales
-      </h3>
+      <div className="w-60 m-auto bg-[var(--primary-color)] rounded-br-3xl rounded-tl-3xl">
+        <h3 className="text-3xl self-center uppercase font-bold text-[var(--second-color)] overflow-hidden py-3 my-7">
+          Hot Sales
+        </h3>
+      </div>
       <div className="">
         <HotProducts products={hotProducts} />
       </div>
