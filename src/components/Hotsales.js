@@ -5,22 +5,22 @@ export default function Hotsales() {
     {
       name: "item1",
       image: "https://picsum.photos/id/230/400/400",
-      price: "220",
+      price: "19",
     },
     {
       name: "item2",
       image: "https://picsum.photos/id/120/400/400",
-      price: "220",
+      price: "25",
     },
     {
       name: "item3",
       image: "https://picsum.photos/id/5/400/400",
-      price: "220",
+      price: "22",
     },
     {
       name: "item4",
       image: "https://picsum.photos/id/60/400/400",
-      price: "220",
+      price: "30",
     },
   ];
   const HotProducts = ({ products }) => {
@@ -32,7 +32,7 @@ export default function Hotsales() {
             className="flex flex-col product rounded-2xl"
           >
             <img
-              className="flex rounded-t-2xl w-80 flex-wrap"
+              className=" hover:scale-105 transition-transform duration-500 ease-in-out cursor-pointer"  
               src={product.image}
               alt={product.name}
             />

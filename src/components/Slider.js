@@ -53,7 +53,7 @@ export default function Slider() {
         }}
         className="w-full h-full bg-cover bg-center duration-500"
       ></div>
-      <div className="hidden group-hover:block absolute top-[50%] m-5 p-2 rounded-full left-0 -translate-x-0 translate-y-[-50%] text-white cursor-pointer bg-black/20">
+      <div className="hidden group-hover:block absolute top-[50%] m-5 p-2 rounded-full left-0 -translate-x-0 translate-y-[-50%] text-white cursor-pointer bg-black/20 ">
         <BsChevronCompactLeft
           onClick={prevSlide}
           size={30}
