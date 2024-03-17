@@ -95,7 +95,7 @@ export default function Products() {
       <div className="flex flex-row flex-wrap justify-center gap-4">
         {filteredProducts.map((product, index) => (
           <div key={index} className="">
-            <div className="container w-60 p-2 ">
+            <div className="container-item w-60 p-2 ">
               <img
                 src={`https://picsum.photos/id/${
                   index + 1
