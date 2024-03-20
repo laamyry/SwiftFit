@@ -30,7 +30,7 @@ The ALX Holberton Software Engineering programme is a 12-month(70h/week) immersi
 
 AUTHORS
 
-* Med Laamyry **[Github](https://github.com/laamyry)** , **[twitter](https://twitter.com/)**, **[Linkedin](https://www.linkedin.com/in/)**
+* Med Laamyry **[Github](https://github.com/laamyry)** , **[twitter](https://twitter.com/medlaamyry)**, **[Linkedin](https://www.linkedin.com/in/medlaamyry)**
 * Abdesslam MEKOUAR **[Github](https://github.com/abdesslammekouar)** , **[twitter](https://twitter.com/slymofpv)**, **[Linkedin](https://linkedin.com/in/amekouar)**
 
 

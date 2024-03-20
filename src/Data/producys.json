@@ -1,65 +1,126 @@
 {
-    "equipment": [
-      {
-        "name": "Dumbbells",
-        "description": "Build strength and tone muscles with our durable dumbbells.",
-        "price": 50,
-        "category": "Strength Training"
-      },
-      {
-        "name": "Resistance Bands",
-        "description": "Versatile resistance bands for a full-body workout at home or on the go.",
-        "price": 25,
-        "category": "Strength Training"
-      },
-      {
-        "name": "Yoga Mat",
-        "description": "Premium yoga mat for comfortable and non-slippery practice.",
-        "price": 35,
-        "category": "Yoga & Pilates"
-      },
-      {
-        "name": "Jump Rope",
-        "description": "High-quality jump rope for cardio and agility training.",
-        "price": 15,
-        "category": "Cardio"
-      },
-      {
-        "name": "Exercise Ball",
-        "description": "Sturdy exercise ball for core strengthening and stability exercises.",
-        "price": 20,
-        "category": "Core Training"
-      },
-      {
-        "name": "Kettlebell",
-        "description": "Versatile kettlebell for strength training and functional exercises.",
-        "price": 40,
-        "category": "Strength Training"
-      },
-      {
-        "name": "Foam Roller",
-        "description": "Foam roller for myofascial release and muscle recovery.",
-        "price": 30,
-        "category": "Recovery & Mobility"
-      },
-      {
-        "name": "Pull-Up Bar",
-        "description": "Doorway pull-up bar for upper body and core workouts.",
-        "price": 45,
-        "category": "Strength Training"
-      },
-      {
-        "name": "Weighted Vest",
-        "description": "Adjustable weighted vest for resistance training and cardio workouts.",
-        "price": 60,
-        "category": "Cardio"
-      },
-      {
-        "name": "Medicine Ball",
-        "description": "Durable medicine ball for strength, power, and coordination exercises.",
-        "price": 30,
-        "category": "Strength Training"
-      }
-    ]
-  }
-  
+  "equipment": [
+    {
+      "name": "Dumbbells",
+      "description": "Build strength and tone muscles with our durable dumbbells.",
+      "price": 50,
+      "category": "Strength Training"
+    },
+    {
+      "name": "Resistance Bands",
+      "description": "Versatile resistance bands for a full-body workout at home or on the go.",
+      "price": 25,
+      "category": "Strength Training"
+    },
+    {
+      "name": "Yoga Mat",
+      "description": "Premium yoga mat for comfortable and non-slippery practice.",
+      "price": 35,
+      "category": "Yoga & Pilates"
+    },
+    {
+      "name": "Jump Rope",
+      "description": "High-quality jump rope for cardio and agility training.",
+      "price": 15,
+      "category": "Cardio"
+    },
+    {
+      "name": "Exercise Ball",
+      "description": "Sturdy exercise ball for core strengthening and stability exercises.",
+      "price": 20,
+      "category": "Core Training"
+    },
+    {
+      "name": "Kettlebell",
+      "description": "Versatile kettlebell for strength training and functional exercises.",
+      "price": 40,
+      "category": "Strength Training"
+    },
+    {
+      "name": "Foam Roller",
+      "description": "Foam roller for myofascial release and muscle recovery.",
+      "price": 30,
+      "category": "Recovery & Mobility"
+    },
+    {
+      "name": "Pull-Up Bar",
+      "description": "Doorway pull-up bar for upper body and core workouts.",
+      "price": 45,
+      "category": "Strength Training"
+    },
+    {
+      "name": "Weighted Vest",
+      "description": "Adjustable weighted vest for resistance training and cardio workouts.",
+      "price": 60,
+      "category": "Cardio"
+    },
+    {
+      "name": "Medicine Ball",
+      "description": "Durable medicine ball for strength, power, and coordination exercises.",
+      "price": 30,
+      "category": "Strength Training"
+    }
+  ],
+  "apparel": [
+    {
+      "name": "Performance Leggings",
+      "description": "Stay comfortable and stylish during your workouts with our performance leggings.",
+      "price": 40,
+      "category": "Leggings"
+    },
+    {
+      "name": "Wicking Workout Top",
+      "description": "Keep dry and cool with our moisture-wicking workout top, perfect for any activity.",
+      "price": 25,
+      "category": "Tops"
+    },
+    {
+      "name": "Athletic Shorts",
+      "description": "Get ready to hit the gym or the track in our comfortable and durable athletic shorts.",
+      "price": 30,
+      "category": "Shorts"
+    },
+    {
+      "name": "Compression Socks",
+      "description": "Reduce muscle fatigue and improve circulation with our compression socks, ideal for athletes and travelers alike.",
+      "price": 15,
+      "category": "Socks"
+    },
+    {
+      "name": "Sports Bra",
+      "description": "Stay supported and comfortable during your workouts with our high-quality sports bra.",
+      "price": 35,
+      "category": "Undergarments"
+    },
+    {
+      "name": "Running Jacket",
+      "description": "Face the elements head-on with our lightweight and water-resistant running jacket.",
+      "price": 50,
+      "category": "Jackets"
+    },
+    {
+      "name": "Yoga Pants",
+      "description": "Flow effortlessly through your yoga practice with our soft and stretchy yoga pants.",
+      "price": 45,
+      "category": "Leggings"
+    },
+    {
+      "name": "Performance Tank Top",
+      "description": "Keep cool and comfortable during intense workouts with our breathable performance tank top.",
+      "price": 20,
+      "category": "Tops"
+    },
+    {
+      "name": "Swimming Trunks",
+      "description": "Dive into the pool with confidence in our stylish and quick-drying swimming trunks.",
+      "price": 35,
+      "category": "Swimwear"
+    },
+    {
+      "name": "Cycling Shorts",
+      "description": "Hit the road in style and comfort with our padded cycling shorts designed for long rides.",
+      "price": 40,
+      "category": "Shorts"
+    }
+  ]
+}

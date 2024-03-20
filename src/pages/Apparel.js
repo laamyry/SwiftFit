@@ -1,12 +1,15 @@
-import React from 'react'
+import React from "react";
 import HEADER from "../components/Header";
 import FOOTER from "../components/Footer";
-export default function Apparel() {
+import OFFERS from "../components/Offers";
+import PRODUCTS from "../components/productsApp";
+export default function Equipment() {
   return (
     <>
       <HEADER />
-      apparel
+      <OFFERS />
+      <PRODUCTS/>
       <FOOTER />
     </>
-  )
+  );
 }

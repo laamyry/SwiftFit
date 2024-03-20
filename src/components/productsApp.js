@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import productsData from "../Data/producys.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 export default function Products() {
   const [selectedCategory, setSelectedCategory] =
@@ -10,10 +12,10 @@ export default function Products() {
   };
 
   const filteredProducts = selectedCategory
-    ? productsData.equipment.filter(
+    ? productsData.apparel.filter(
         (product) => product.category === selectedCategory
       )
-    : productsData.equipment;
+    : productsData.apparel;
 
   return (
     <div>
@@ -33,69 +35,83 @@ export default function Products() {
           All
         </button>
         <button
-          onClick={() =>
-            handleCategoryChange("Strength Training")
-          }
+          onClick={() => handleCategoryChange("Leggings")}
           className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Strength Training"
+            selectedCategory === "Leggings"
               ? "bg-[var(--second-color)]"
               : ""
           }`}
         >
-          Strength Training
+          Leggings
         </button>
         <button
-          onClick={() => handleCategoryChange("Cardio")}
+          onClick={() => handleCategoryChange("Tops")}
           className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Cardio"
+            selectedCategory === "Tops"
               ? "bg-[var(--second-color)]"
               : ""
           }`}
         >
-          Cardio
+          Tops
         </button>
         <button
-          onClick={() =>
-            handleCategoryChange("Yoga & Pilates")
-          }
+          onClick={() => handleCategoryChange("Shorts")}
           className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Yoga & Pilates"
+            selectedCategory === "Shorts"
               ? "bg-[var(--second-color)]"
               : ""
           }`}
         >
-          Yoga & Pilates
+          Shorts
         </button>
         <button
-          onClick={() =>
-            handleCategoryChange("Core Training")
-          }
+          onClick={() => handleCategoryChange("Socks")}
           className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Core Training"
+            selectedCategory === "Socks"
               ? "bg-[var(--second-color)]"
               : ""
           }`}
         >
-          Core Training
+          Socks
         </button>
         <button
           onClick={() =>
-            handleCategoryChange("Recovery & Mobility")
+            handleCategoryChange("Undergarments")
           }
           className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Recovery & Mobility"
+            selectedCategory === "Undergarments"
               ? "bg-[var(--second-color)]"
               : ""
           }`}
         >
-          Recovery & Mobility
+          Undergarments
+        </button>
+        <button
+          onClick={() => handleCategoryChange("Jackets")}
+          className={`px-4 py-2 rounded-lg ${
+            selectedCategory === "Jackets"
+              ? "bg-[var(--second-color)]"
+              : ""
+          }`}
+        >
+          Jackets
+        </button>
+        <button
+          onClick={() => handleCategoryChange("Swimwear")}
+          className={`px-4 py-2 rounded-lg ${
+            selectedCategory === "Swimwear"
+              ? "bg-[var(--second-color)]"
+              : ""
+          }`}
+        >
+          Swimwear
         </button>
         {/* Add more buttons for other categories as needed */}
       </div>
-      <div className="flex flex-row flex-wrap justify-center gap-4">
+      <div className="flex flex-row flex-wrap justify-center gap-4 ">
         {filteredProducts.map((product, index) => (
           <div key={index} className="">
-            <div className="container-item w-60 p-2 ">
+            <div className="container-item w-60 p-2 relative">
               <img
                 src={`https://picsum.photos/id/${
                   index + 1
@@ -112,6 +128,12 @@ export default function Products() {
               <h2 className="text-xl hover:text-[var(--second-color)] transition duration-300">
                 ${product.price}
               </h2>
+              <button className="absolute top-72 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300">
+                <FontAwesomeIcon
+                  className="py-0"
+                  icon={faCartShopping}
+                />
+              </button>
             </div>
           </div>
         ))}
