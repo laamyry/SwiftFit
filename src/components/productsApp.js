@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import productsData from "../Data/producys.json";
+import productsData from "../Data/products.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 

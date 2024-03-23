@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import productsData from "../Data/producys.json";
+import productsData from "../Data/products.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
@@ -99,9 +99,7 @@ export default function Products() {
           <div key={index} className="">
             <div className="container-item w-60 p-2 relative">
               <img
-                src={`https://picsum.photos/id/${
-                  index + 1
-                }/240/240`}
+                src={require(`../Assets/products/${1 + index}.jpg`)}
                 alt=""
                 className="rounded-2xl "
               />
@@ -114,7 +112,7 @@ export default function Products() {
               <h2 className="text-xl hover:text-[var(--second-color)] transition duration-300">
                 ${product.price}
               </h2>
-              <button className="absolute top-72 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300">
+              <button className="absolute top-56 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300">
                 <FontAwesomeIcon
                   className="py-0"
                   icon={faCartShopping}

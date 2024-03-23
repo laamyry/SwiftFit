@@ -4,7 +4,8 @@
       "name": "Dumbbells",
       "description": "Build strength and tone muscles with our durable dumbbells.",
       "price": 50,
-      "category": "Strength Training"
+      "category": "Strength Training",
+      "image": "../Assets/products/1.jpg"
     },
     {
       "name": "Resistance Bands",
