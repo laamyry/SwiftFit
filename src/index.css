@@ -62,3 +62,7 @@ svg{
   all:unset;
   padding: 0;
 }
+
+.form-contact{
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.164);
+}
