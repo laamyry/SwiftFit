@@ -30,14 +30,14 @@ export default function Hotsales() {
   ];
   const HotProducts = ({ products }) => {
     return (
-      <div className="hot-products products-container flex flex-row gap-5 overflow-hidden justify-center">
+      <div className="hot-products products-container flex flex-row gap-5 overflow-hidden justify-center rounded-t-2xl">
         {products.map((product, index) => (
           <div
             key={index}
             className="flex flex-col product rounded-2xl relative w-full h-80"
           >
             <img
-              className="hover:scale-105 transition-transform duration-500 ease-in-out cursor-pointer drop-shadow-lg w-full h-60 object-contain bg-white p-3"
+              className="hover:scale-105 rounded-t-2xl transition-transform duration-500 ease-in-out cursor-pointer drop-shadow-lg w-full h-60 object-contain bg-white p-3"
               src={product.image}
               alt={product.name}
               style={{

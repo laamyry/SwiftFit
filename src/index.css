@@ -58,11 +58,36 @@ body {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.164);
   border-radius: 1rem;
 }
-svg{
-  all:unset;
+svg {
+  all: unset;
   padding: 0;
 }
-
+/* 
 .form-contact{
 box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.164);
+} */
+
+.form-contact, .bg-container, .text-container, .ul-container, .shape {
+  transition: all 0.8s ease;
+}
+
+
+@media (max-width: 750px) {
+  .form-contact {
+    width: 100%;
+  }
+  .bg-container {
+    display: none;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ul-container {
+    position: relative;
+    margin-top: 2rem;
+  }
+  .shape {
+    display: none;
+  }
 }
