@@ -9,6 +9,7 @@ export default function Equipment() {
       <HEADER />
       <OFFERS />
       <PRODUCTS/>
+
       <FOOTER />
     </>
   );

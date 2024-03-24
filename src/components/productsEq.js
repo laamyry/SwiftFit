@@ -1,21 +1,23 @@
 import React, { useState } from "react";
-import productsData from "../Data/products.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCartShopping,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
+import productsData from "../Data/products.json";
+import Quantity from "./Quantity";
 
 export default function Products() {
-  const [selectedCategory, setSelectedCategory] =
-    useState("");
+  const [selectedProduct, setSelectedProduct] =
+    useState(null);
 
-  const handleCategoryChange = (category) => {
-    setSelectedCategory(category);
+  const handleProductClick = (product) => {
+    setSelectedProduct(product);
   };
 
-  const filteredProducts = selectedCategory
-    ? productsData.equipment.filter(
-        (product) => product.category === selectedCategory
-      )
-    : productsData.equipment;
+  const handleClosePopup = () => {
+    setSelectedProduct(null);
+  };
 
   return (
     <div>
@@ -23,83 +25,14 @@ export default function Products() {
         Products
       </h1>
       <div className="border-b-4 w-36 m-auto border-[var(--second-color)] -mt-4 mb-4" />
-      <div className="flex justify-center gap-4 mb-4">
-        <button
-          onClick={() => handleCategoryChange("")}
-          className={`px-4 py-2 rounded-lg ${
-            selectedCategory === ""
-              ? "bg-[var(--second-color)]"
-              : ""
-          }`}
-        >
-          All
-        </button>
-        <button
-          onClick={() =>
-            handleCategoryChange("Strength Training")
-          }
-          className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Strength Training"
-              ? "bg-[var(--second-color)]"
-              : ""
-          }`}
-        >
-          Strength Training
-        </button>
-        <button
-          onClick={() => handleCategoryChange("Cardio")}
-          className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Cardio"
-              ? "bg-[var(--second-color)]"
-              : ""
-          }`}
-        >
-          Cardio
-        </button>
-        <button
-          onClick={() =>
-            handleCategoryChange("Yoga & Pilates")
-          }
-          className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Yoga & Pilates"
-              ? "bg-[var(--second-color)]"
-              : ""
-          }`}
-        >
-          Yoga & Pilates
-        </button>
-        <button
-          onClick={() =>
-            handleCategoryChange("Core Training")
-          }
-          className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Core Training"
-              ? "bg-[var(--second-color)]"
-              : ""
-          }`}
-        >
-          Core Training
-        </button>
-        <button
-          onClick={() =>
-            handleCategoryChange("Recovery & Mobility")
-          }
-          className={`px-4 py-2 rounded-lg ${
-            selectedCategory === "Recovery & Mobility"
-              ? "bg-[var(--second-color)]"
-              : ""
-          }`}
-        >
-          Recovery & Mobility
-        </button>
-        {/* Add more buttons for other categories as needed */}
-      </div>
-      <div className="flex flex-row flex-wrap justify-center gap-4 ">
-        {filteredProducts.map((product, index) => (
+      <div className="flex flex-row flex-wrap justify-center gap-4">
+        {productsData.equipment.map((product, index) => (
           <div key={index} className="">
-            <div className="container-item w-60 p-2 relative">
+            <div
+              className="container-item w-60 p-2 relative cursor-pointer"
+              onClick={() => handleProductClick(product)}
+            >
               <img
-                // src={require(`../Assets/products/${1 + index}.jpg`)}
                 src={product.image}
                 alt=""
                 className="rounded-2xl w-full h-60 object-contain bg-white p-3"
@@ -122,6 +55,62 @@ export default function Products() {
             </div>
           </div>
         ))}
+      </div>
+      {selectedProduct && (
+        <ProductPopup
+          product={selectedProduct}
+          onClose={handleClosePopup}
+        />
+      )}
+    </div>
+  );
+}
+
+function ProductPopup({ product, onClose }) {
+  return (
+    <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
+      <div className="module-container bg-white p-8 rounded-xl relative">
+        <button
+          className="absolute top-4 right-4 text-gray-600 hover:text-gray-800"
+          onClick={onClose}
+        >
+          <FontAwesomeIcon icon={faXmark} />
+        </button>
+
+        <img
+          src={product.image}
+          alt=""
+          className="rounded-lg w-60 h-60 object-contain mx-auto"
+        />
+        <h1 className="text-xl font-semibold mt-4">
+          {product.name}
+        </h1>
+        <p className="text-gray-700">
+          {product.description}
+        </p>
+        <div className="flex gap-2 mt-2">
+          {product.color && product.color.length > 0 ? (
+            product.color.map((color, index) => (
+              <button
+                key={index}
+                className="w-5 h-5 rounded-full mb-2"
+                style={{ backgroundColor: color }}
+              ></button>
+            ))
+          ) : (
+            <button
+              className="w-5 h-5 rounded-full"
+              style={{ backgroundColor: "black" }}
+            ></button>
+          )}
+        </div>
+        <Quantity />
+        <h2 className="text-xl font-semibold mt-2">
+          ${product.price}
+        </h2>
+        <button className="bg-[var(--second-color)] p-2 rounded-lg float-right mt-2">
+          Add to cart
+        </button>
       </div>
     </div>
   );

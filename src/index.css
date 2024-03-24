@@ -22,7 +22,7 @@ body {
   height: auto;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.164);
 }
-.border {
+.trace {
   border: 1px solid red;
 }
 .title {
@@ -90,4 +90,24 @@ box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.164);
   .shape {
     display: none;
   }
+}
+.cart-module{
+  backdrop-filter: blur(10px);
+  background-color: var(--third-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.39);
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.module-container{
+  animation: popup 0.5s ease-in-out;
 }
