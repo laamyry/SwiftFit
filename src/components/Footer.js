@@ -84,7 +84,7 @@ export default function Footer() {
               </ul>
               <div className="flex justify-center self-center">
                 <h1 className="text-center footer-icons uppercase font-semibold text-[var(--second-color)]">
-                  Lorem ipsum dolor sit amet
+                  Follow Us
                 </h1>
               </div>
             </div>

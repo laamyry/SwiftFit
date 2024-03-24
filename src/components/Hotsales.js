@@ -40,21 +40,19 @@ export default function Hotsales() {
               className="hover:scale-105 rounded-t-2xl transition-transform duration-500 ease-in-out cursor-pointer drop-shadow-lg w-full h-60 object-contain bg-white p-3"
               src={product.image}
               alt={product.name}
-              style={{
-              }}
+              style={{}}
             />
             <div className="uppercase font-semibold bg-slate-200 w-[95%] p-2 rounded-b-2xl flex flex-col justify-center self-center">
               <h3>{product.name}</h3>
               <p>{product.price}$</p>
             </div>
             <button className="absolute -right-6 bottom-7 p-0 hover:scale-125 transition ease-in-out duration-300">
-                <FontAwesomeIcon
-                  className="py-0"
-                  icon={faCartShopping}
-                />
-              </button>
+              <FontAwesomeIcon
+                className="py-0"
+                icon={faCartShopping}
+              />
+            </button>
           </div>
-          
         ))}
       </div>
     );

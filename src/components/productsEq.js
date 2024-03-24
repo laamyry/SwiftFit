@@ -99,9 +99,10 @@ export default function Products() {
           <div key={index} className="">
             <div className="container-item w-60 p-2 relative">
               <img
-                src={require(`../Assets/products/${1 + index}.jpg`)}
+                // src={require(`../Assets/products/${1 + index}.jpg`)}
+                src={product.image}
                 alt=""
-                className="rounded-2xl "
+                className="rounded-2xl w-full h-60 object-contain bg-white p-3"
               />
               <h1 className="mt-2 text-lg font-semibold">
                 {product.name}
@@ -112,7 +113,7 @@ export default function Products() {
               <h2 className="text-xl hover:text-[var(--second-color)] transition duration-300">
                 ${product.price}
               </h2>
-              <button className="absolute top-56 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300">
+              <button className="absolute top-72 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300">
                 <FontAwesomeIcon
                   className="py-0"
                   icon={faCartShopping}

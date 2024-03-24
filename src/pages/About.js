@@ -8,14 +8,28 @@ export default function About() {
     <>
       <HEADER />
       <div className="flex mt-6 gap-9">
-        <div className="flex-1 w-auto border h-auto self-center">
+        <div className="flex-1 w-auto h-auto self-center relative">
           <img className="w-auto " src={image} alt="" />
+          <div className="bg-[#6ac43b] w-12 h-12 absolute -top-3 -right-3" />
         </div>
-        <div className="flex-1 w-1/3 p-4 border self-center">
-          <h1 className="text-5xl uppercase font-bold mb-2">About Us</h1>
+        <div className="flex-1 w-1/3 p-4 self-center ">
+          <h1 className="text-5xl uppercase font-bold mb-2">
+            About Us
+          </h1>
           <p className="">
-          Welcome to SwiftFit – your one-stop fitness destination! Founded by passionate fitness enthusiasts, we're here to support your journey to a healthier you. Discover top-quality equipment, stylish apparel, and nutritious supplements curated to elevate your fitness experience. Whether you're a seasoned athlete or just starting out, our experienced team is committed to empowering you every step of the way. Join us today and let's make your fitness goals a reality with SwiftFit!
+            Welcome to SwiftFit – your one-stop fitness
+            destination! Founded by passionate fitness
+            enthusiasts, we're here to support your journey
+            to a healthier you. Discover top-quality
+            equipment, stylish apparel, and nutritious
+            supplements curated to elevate your fitness
+            experience. Whether you're a seasoned athlete or
+            just starting out, our experienced team is
+            committed to empowering you every step of the
+            way. Join us today and let's make your fitness
+            goals a reality with SwiftFit!
           </p>
+
         </div>
       </div>
       <FOOTER />
