@@ -7,8 +7,13 @@ import {
   faBars,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import { useSelector } from "react-redux";
 export default function Header() {
   const [showmenu, setshowmenu] = useState(false);
+  const products = useSelector(
+    (state) => state.cart.products
+  );
+
   return (
     <div>
       <header>
@@ -48,12 +53,17 @@ export default function Header() {
               <a href="/contact">Contact</a>
             </li>
           </ul>
-          <button>
-            <FontAwesomeIcon
-              className="cartbtn"
-              icon={faCartShopping}
-            />
-          </button>
+          <div className="flex relative">
+            <button>
+              <FontAwesomeIcon
+                className="cartbtn"
+                icon={faCartShopping}
+              />
+            </button>
+            <small className="flex text-white bg-red-700 w-4 h-4 absolute rounded-full left-10 top-2 justify-center">
+              <h1 className="text-xs">{products.length}</h1>
+            </small>
+          </div>
         </nav>
         {showmenu && (
           <div

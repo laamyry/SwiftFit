@@ -6,8 +6,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import productsData from "../Data/products.json";
 import Quantity from "./Quantity";
+import { addToCart } from "../Redux/cartReducer";
+import { useDispatch } from "react-redux";
 
-export default function Products() {
+export default function Products({ addToCart }) {
+  // Pass addToCart function as prop
   const [selectedProduct, setSelectedProduct] =
     useState(null);
 
@@ -17,6 +20,11 @@ export default function Products() {
 
   const handleClosePopup = () => {
     setSelectedProduct(null);
+  };
+
+  const handleAddToCart = (product) => {
+    addToCart(); // Call addToCart function passed from the Header component
+    handleClosePopup();
   };
 
   return (
@@ -46,7 +54,13 @@ export default function Products() {
               <h2 className="text-xl hover:text-[var(--second-color)] transition duration-300">
                 ${product.price}
               </h2>
-              <button className="absolute top-72 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300">
+              <button
+                className="absolute top-72 -right-9 p-0 hover:scale-125 transition ease-in-out duration-300"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  handleAddToCart(product);
+                }}
+              >
                 <FontAwesomeIcon
                   className="py-0"
                   icon={faCartShopping}
@@ -65,8 +79,8 @@ export default function Products() {
     </div>
   );
 }
-
 function ProductPopup({ product, onClose }) {
+  const dispatch = useDispatch();
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
       <div className="module-container bg-white p-8 rounded-xl relative">
@@ -76,7 +90,6 @@ function ProductPopup({ product, onClose }) {
         >
           <FontAwesomeIcon icon={faXmark} />
         </button>
-
         <img
           src={product.image}
           alt=""
@@ -108,7 +121,19 @@ function ProductPopup({ product, onClose }) {
         <h2 className="text-xl font-semibold mt-2">
           ${product.price}
         </h2>
-        <button className="bg-[var(--second-color)] p-2 rounded-lg float-right mt-2">
+        <button
+          onClick={() =>
+            dispatch(
+              addToCart({
+                id: product.id,
+                name: product.name,
+                price: product.price,
+                quantity: 1,
+              })
+            )
+          }
+          className="bg-[var(--second-color)] p-2 rounded-lg float-right mt-2"
+        >
           Add to cart
         </button>
       </div>
