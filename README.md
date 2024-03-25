@@ -1,4 +1,4 @@
-# SwitFit
+# SwitFit : view the website [https://swift-fit.vercel.app/]
 ![SwitFit](https://github.com/laamyry/SwiftFit/blob/master/public/SwiftFit-icon.png)
 
 `Group project` `Web Portfolio project`
