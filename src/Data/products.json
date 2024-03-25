@@ -1,126 +1,169 @@
 {
   "equipment": [
     {
+      "id": 1,
       "name": "Dumbbells",
       "description": "Build strength and tone muscles with our durable dumbbells.",
       "price": 50,
-      "category": "Strength Training"
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/81gnxptnqWL._AC_UL320_.jpg",
+      "color": ["Black", "Silver", "Red"]
     },
     {
+      "id": 2,
       "name": "Resistance Bands",
       "description": "Versatile resistance bands for a full-body workout at home or on the go.",
       "price": 25,
-      "category": "Strength Training"
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/71wwR5zim1L._AC_UL320_.jpg",
+      "color": ["Black", "red", "blue", "Green", "yellow"]
     },
     {
+      "id": 3,
       "name": "Yoga Mat",
       "description": "Premium yoga mat for comfortable and non-slippery practice.",
       "price": 35,
-      "category": "Yoga & Pilates"
+      "category": "Yoga & Pilates",
+      "image": "https://m.media-amazon.com/images/I/71aaK-w9tbL._AC_UL320_.jpg",
+      "color": ["Black", "#ce9a91"]
     },
     {
+      "id": 4,
       "name": "Jump Rope",
       "description": "High-quality jump rope for cardio and agility training.",
       "price": 15,
-      "category": "Cardio"
+      "category": "Cardio",
+      "image": "https://m.media-amazon.com/images/I/71wm42EtoNL._AC_UL320_.jpg"
     },
     {
+      "id": 5,
       "name": "Exercise Ball",
       "description": "Sturdy exercise ball for core strengthening and stability exercises.",
       "price": 20,
-      "category": "Core Training"
+      "category": "Core Training",
+      "image": "https://m.media-amazon.com/images/I/8140rArOM8L._AC_UL320_.jpg"
     },
     {
+      "id": 6,
       "name": "Kettlebell",
       "description": "Versatile kettlebell for strength training and functional exercises.",
       "price": 40,
-      "category": "Strength Training"
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/71Xa4wDo5QL._AC_UL320_.jpg"
     },
     {
+      "id": 7,
       "name": "Foam Roller",
       "description": "Foam roller for myofascial release and muscle recovery.",
       "price": 30,
-      "category": "Recovery & Mobility"
+      "category": "Recovery & Mobility",
+      "image": "https://m.media-amazon.com/images/I/81FeZJQyrxL._AC_UL320_.jpg"
     },
     {
+      "id": 8,
       "name": "Pull-Up Bar",
       "description": "Doorway pull-up bar for upper body and core workouts.",
       "price": 45,
-      "category": "Strength Training"
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/51S48AlbfOS._AC_UL320_.jpg"
     },
     {
+      "id": 9,
       "name": "Weighted Vest",
       "description": "Adjustable weighted vest for resistance training and cardio workouts.",
       "price": 60,
-      "category": "Cardio"
+      "category": "Cardio",
+      "image": "https://m.media-amazon.com/images/I/71Hk+S9OldL._AC_UL320_.jpg"
     },
     {
+      "id": 10,
       "name": "Medicine Ball",
       "description": "Durable medicine ball for strength, power, and coordination exercises.",
       "price": 30,
-      "category": "Strength Training"
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/5118gh9Lq2L._AC_UL320_.jpg"
     }
   ],
   "apparel": [
     {
+      "id": 1,
       "name": "Performance Leggings",
       "description": "Stay comfortable and stylish during your workouts with our performance leggings.",
       "price": 40,
-      "category": "Leggings"
+      "category": "Leggings",
+      "image": "https://m.media-amazon.com/images/I/416599WvpjL._AC_UL320_.jpg"
     },
     {
+      "id": 2,
       "name": "Wicking Workout Top",
       "description": "Keep dry and cool with our moisture-wicking workout top, perfect for any activity.",
       "price": 25,
-      "category": "Tops"
+      "category": "Tops",
+      "image": "https://m.media-amazon.com/images/I/61NhMwoPULL._AC_UL320_.jpg"
     },
     {
+      "id": 3,
       "name": "Athletic Shorts",
       "description": "Get ready to hit the gym or the track in our comfortable and durable athletic shorts.",
       "price": 30,
-      "category": "Shorts"
+      "category": "Shorts",
+      "image": "https://m.media-amazon.com/images/I/61vVXZTa74L._AC_UL320_.jpg"
     },
     {
+      "id": 4,
       "name": "Compression Socks",
       "description": "Reduce muscle fatigue and improve circulation with our compression socks, ideal for athletes and travelers alike.",
       "price": 15,
-      "category": "Socks"
+      "category": "Socks",
+      "image": "https://m.media-amazon.com/images/I/91qc1estYRL._AC_UL320_.jpg"
     },
     {
+      "id": 5,
       "name": "Sports Bra",
       "description": "Stay supported and comfortable during your workouts with our high-quality sports bra.",
       "price": 35,
-      "category": "Undergarments"
+      "category": "Undergarments",
+      "image": "https://m.media-amazon.com/images/I/51kByXr4fpL._AC_UL320_.jpg"
     },
     {
+      "id": 6,
       "name": "Running Jacket",
       "description": "Face the elements head-on with our lightweight and water-resistant running jacket.",
       "price": 50,
-      "category": "Jackets"
+      "category": "Jackets",
+      "image": "https://m.media-amazon.com/images/I/51Fo6N7xDKL._AC_UL320_.jpg"
     },
     {
+      "id": 7,
       "name": "Yoga Pants",
       "description": "Flow effortlessly through your yoga practice with our soft and stretchy yoga pants.",
       "price": 45,
-      "category": "Leggings"
+      "category": "Leggings",
+      "image": "https://m.media-amazon.com/images/I/71GP3C3zHHL._AC_UL320_.jpg"
     },
     {
+      "id": 8,
       "name": "Performance Tank Top",
       "description": "Keep cool and comfortable during intense workouts with our breathable performance tank top.",
       "price": 20,
-      "category": "Tops"
+      "category": "Tops",
+      "image": "https://m.media-amazon.com/images/I/71JPTWOiJVL._AC_UL320_.jpg"
     },
     {
+      "id":9,
       "name": "Swimming Trunks",
       "description": "Dive into the pool with confidence in our stylish and quick-drying swimming trunks.",
       "price": 35,
-      "category": "Swimwear"
+      "category": "Swimwear",
+      "image": "https://m.media-amazon.com/images/I/71EclwEKVaL._MCnd_AC_UL320_.jpg"
     },
     {
+      "id": 10,
       "name": "Cycling Shorts",
       "description": "Hit the road in style and comfort with our padded cycling shorts designed for long rides.",
       "price": 40,
-      "category": "Shorts"
+      "category": "Shorts",
+      "image": "https://m.media-amazon.com/images/I/81Ng3sxWYiL._AC_UL320_.jpg"
     }
   ]
 }
