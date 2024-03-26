@@ -1,6 +1,6 @@
 # SwitFit
 ![SwitFit](https://github.com/laamyry/SwiftFit/blob/master/public/SwiftFit-icon.png)
-![Video](https://youtu.be/yjGI2XbWOAc)
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/yjGI2XbWOAc)
 `Group project` `Web Portfolio project`
 
 > SwiftFit simplifies your fitness journey by offering a curated selection of top-quality materials, equipment, apparel, and nutrition products. Whether you're a seasoned athlete or a beginner, our platform provides everything you need to thrive. With a focus on quality and convenience, we ensure that each product meets your unique needs and goals. From innovative equipment to trusted nutrition supplements,SwiftFit is your one-stop destination for all things fitness. Join us today and experience the ease of reaching your fitness goals with SwiftFit.
