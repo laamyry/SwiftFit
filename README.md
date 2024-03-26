@@ -1,5 +1,5 @@
 # SwitFit
-![Watch the video](https://github.com/laamyry/SwiftFit/blob/master/public/SwiftFit-icon.png)](https://youtu.be/yjGI2XbWOAc)
+[![Watch the video](https://github.com/laamyry/SwiftFit/blob/master/public/SwiftFit-icon.png)](https://youtu.be/yjGI2XbWOAc)
 
 `Group project` `Web Portfolio project`
 
