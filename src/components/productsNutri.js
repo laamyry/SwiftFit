@@ -34,7 +34,7 @@ export default function Products({ addToCart }) {
       </h1>
       <div className="border-b-4 w-36 m-auto border-[var(--second-color)] -mt-4 mb-4" />
       <div className="flex flex-row flex-wrap justify-center gap-4">
-        {productsData.equipment.map((product, index) => (
+        {productsData.nutrition.map((product, index) => (
           <div key={index} className="">
             <div
               className="container-item w-60 p-2 relative cursor-pointer"
