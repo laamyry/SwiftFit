@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
       <Hotsales />
-<PRODUCTS/>
+<Best Seller />
       <Footer />
     </>
   );
