@@ -4,6 +4,8 @@ import Slider from "../components/Slider";
 import image from "../Assets/image.jpg";
 import Hotsales from "../components/Hotsales";
 import PRODUCTS from "../components/productsApp";
+import PRODUCTS from "../components/productsEq";
+import PRODUCTS from "../components/productsNutri";
 export default function Home() {
   return (
     <>
@@ -36,7 +38,7 @@ export default function Home() {
         </div>
       </div>
       <Hotsales />
-<Best Seller />
+<PRODUCTS />
       <Footer />
     </>
   );
