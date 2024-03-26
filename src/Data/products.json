@@ -165,5 +165,23 @@
       "category": "Shorts",
       "image": "https://m.media-amazon.com/images/I/81Ng3sxWYiL._AC_UL320_.jpg"
     }
-  ]
+  ],
+    "nutrition": [
+    {
+      "id": 1,
+      "name": "Gold Standard 100% Whey Protein",
+      "description": "The World’s #1 Whey Protein Powder",
+      "price": 35,
+      "category": "Whey",
+      "image": "https://www.prodietnutrition.ma/3779-large_default/gold-whey-standard-2270kg-optimum-nutrition.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Essential AMIN.O. Energy",
+      "description": "Anytime Energy & Muscle Recovery",
+      "price": 25,
+      "category": "Amino",
+      "image": "https://www.prodietnutrition.ma/4899-large_default/amino-build-614g-muscletech.jpg"
+    }
+    ]
 }
