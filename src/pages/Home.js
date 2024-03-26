@@ -3,9 +3,6 @@ import Footer from "../components/Footer";
 import Slider from "../components/Slider";
 import image from "../Assets/image.jpg";
 import Hotsales from "../components/Hotsales";
-import PRODUCTS from "../components/productsApp";
-import PRODUCTS from "../components/productsEq";
-import PRODUCTS from "../components/productsNutri";
 export default function Home() {
   return (
     <>
@@ -15,7 +12,6 @@ export default function Home() {
         <div className="image flex-1 text-center object-cover	overflow-hidden rounded-r-3xl">
           <img src={image} alt="" />
         </div>
-<PRODUCTS />
 	  <div className="flex flex-col justify-center text flex-1 pl-5 text-justify ">
           <p className="title text-6xl font-black w-[90%] uppercase ">
             Your Ultimate Fitness Destination
@@ -38,9 +34,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-<PRODUCTS />
       <Hotsales />
-<PRODUCTS />
       <Footer />
     </>
   );
