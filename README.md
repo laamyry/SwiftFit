@@ -26,7 +26,7 @@ The ALX Holberton Software Engineering programme is a 12-month(70h/week) immersi
 
 ## Tech Used
 
-`React`
+`React` `CSS` `Redux` `React Router`
 
 AUTHORS
 
