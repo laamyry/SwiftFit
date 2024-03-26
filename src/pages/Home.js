@@ -15,7 +15,8 @@ export default function Home() {
         <div className="image flex-1 text-center object-cover	overflow-hidden rounded-r-3xl">
           <img src={image} alt="" />
         </div>
-        <div className="flex flex-col justify-center text flex-1 pl-5 text-justify ">
+<PRODUCTS />
+	  <div className="flex flex-col justify-center text flex-1 pl-5 text-justify ">
           <p className="title text-6xl font-black w-[90%] uppercase ">
             Your Ultimate Fitness Destination
           </p>
@@ -37,6 +38,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+<PRODUCTS />
       <Hotsales />
 <PRODUCTS />
       <Footer />
