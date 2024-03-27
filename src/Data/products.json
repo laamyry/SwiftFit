@@ -7,7 +7,11 @@
       "price": 50,
       "category": "Strength Training",
       "image": "https://m.media-amazon.com/images/I/81gnxptnqWL._AC_UL320_.jpg",
-      "color": ["Black", "Silver", "Red"]
+      "color": [
+        "Black",
+        "Silver",
+        "Red"
+      ]
     },
     {
       "id": 2,
@@ -16,7 +20,13 @@
       "price": 25,
       "category": "Strength Training",
       "image": "https://m.media-amazon.com/images/I/71wwR5zim1L._AC_UL320_.jpg",
-      "color": ["Black", "red", "blue", "Green", "yellow"]
+      "color": [
+        "Black",
+        "red",
+        "blue",
+        "Green",
+        "yellow"
+      ]
     },
     {
       "id": 3,
@@ -25,7 +35,10 @@
       "price": 35,
       "category": "Yoga & Pilates",
       "image": "https://m.media-amazon.com/images/I/71aaK-w9tbL._AC_UL320_.jpg",
-      "color": ["Black", "#ce9a91"]
+      "color": [
+        "Black",
+        "#ce9a91"
+      ]
     },
     {
       "id": 4,
@@ -150,7 +163,7 @@
       "image": "https://m.media-amazon.com/images/I/71JPTWOiJVL._AC_UL320_.jpg"
     },
     {
-      "id":9,
+      "id": 9,
       "name": "Swimming Trunks",
       "description": "Dive into the pool with confidence in our stylish and quick-drying swimming trunks.",
       "price": 35,
@@ -166,7 +179,7 @@
       "image": "https://m.media-amazon.com/images/I/81Ng3sxWYiL._AC_UL320_.jpg"
     }
   ],
-    "nutrition": [
+  "nutrition": [
     {
       "id": 1,
       "name": "Gold Standard 100% Whey Protein",
@@ -183,17 +196,17 @@
       "category": "Amino",
       "image": "https://www.prodietnutrition.ma/4899-large_default/amino-build-614g-muscletech.jpg"
     },
-	{
+    {
       "id": 3,
       "name": "Gold Standard Ready To Drink Protein Shake",
       "description": "Put the World’s #1 Sports Nutrition brand to the test",
       "price": 25,
       "category": "Shake",
       "image": "https://m.media-amazon.com/images/I/715dGvILJBL._AC_SL1500_.jpg"
-	},
-	{
+    },
+    {
       "id": 4,
-      "name": "Optimum Nutrition Micronized Creatine Monohydrate Powder",
+      "name": "Optimum Nutrition Micronized Creatine",
       "description": "Unflavored, Keto Friendly, 60 Servings",
       "price": 29,
       "category": "Creatine",
@@ -201,16 +214,16 @@
     },
     {
       "id": 5,
-      "name": "BlenderBottle Classic Shaker Bottle Perfect for Protein Shakes and Pre Workout",
+      "name": "BlenderBottle Classic Shaker Bottle Perfect",
       "description": "Clear/Black/Black",
       "price": 11,
       "category": "Shaker",
       "image": "https://m.media-amazon.com/images/I/71Q+RM7CTBL._AC_SL1500_.jpg"
     },
-	{
+    {
       "id": 6,
-      "name": "Dymatize ISO100 Hydrolyzed Protein Powder, 100% Whey Isolate",
-      "description": "25g of Protein, 5.5g BCAAs, Gluten Free, Fast Absorbing, Easy Digesting, Fruity Pebbles, 20 Servings",
+      "name": "Dymatize ISO100 Hydrolyzed",
+      "description": "25g of Protein, 5.5g BCAAs, Gluten Free, Fast Absorbing, Easy Digesting, Fruity Pebbles, 20 Servings , 100% Whey Isolate",
       "price": 39,
       "category": "Whey",
       "image": "https://m.media-amazon.com/images/I/71Z6PME++yL._AC_SL1500_.jpg"
@@ -223,29 +236,222 @@
       "category": "Whey",
       "image": "https://m.media-amazon.com/images/I/71gwmu0UtbL._AC_SL1500_.jpg"
     },
-        {
+    {
       "id": 8,
       "name": "C4 Ripped Sport Pre Workout Powder Arctic",
       "description": "NSF Certified for Sport + Sugar Free Preworkout Energy Supplement for Men & Women - 135mg Caffeine + Weight Loss - 30 Servings",
       "price": 28,
       "category": "Multivitamin",
       "image": "https://m.media-amazon.com/images/I/718T5OrrPUL._AC_SL1500_.jpg"
-        },
-        {
+    },
+    {
       "id": 9,
-      "name": "Optimum Nutrition Amino Energy Powder Plus Hydration",
+      "name": "Optimum Nutrition Amino Energy Powder",
       "description": "with BCAA, Electrolytes, and Caffeine, Watermelon Splash, 30 Servings",
       "price": 24,
       "category": "Amino",
       "image": "https://m.media-amazon.com/images/I/61aaWGnxClL._AC_SL1500_.jpg"
-	},
-	{
+    },
+    {
       "id": 10,
-      "name": "Sports Research Triple Strength Omega 3 Fish Oil",
+      "name": "Sports Research Triple Strength Omega 3",
       "description": "Burpless Fish Oil Supplement w/EPA & DHA Fatty Acids from Single-Source Wild Alaskan Pollock - 1250 mg, 90 ct",
       "price": 26,
       "category": "Softgel",
       "image": "https://m.media-amazon.com/images/I/61PbU2-L88L._AC_SL1500_.jpg"
-        }
-    ]
+    }
+  ],
+  "hotsales": [
+    {
+      "id": 1,
+      "name": "Dumbbells",
+      "description": "Build strength and tone muscles with our durable dumbbells.",
+      "price": 50,
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/81gnxptnqWL._AC_UL320_.jpg",
+      "color": [
+        "Black",
+        "Silver",
+        "Red"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Yoga Mat",
+      "description": "Premium yoga mat for comfortable and non-slippery practice.",
+      "price": 35,
+      "category": "Yoga & Pilates",
+      "image": "https://m.media-amazon.com/images/I/71aaK-w9tbL._AC_UL320_.jpg",
+      "color": [
+        "Black",
+        "#ce9a91"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Performance Leggings",
+      "description": "Stay comfortable and stylish during your workouts with our performance leggings.",
+      "price": 40,
+      "category": "Leggings",
+      "image": "https://m.media-amazon.com/images/I/416599WvpjL._AC_UL320_.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Athletic Shorts",
+      "description": "Get ready to hit the gym or the track in our comfortable and durable athletic shorts.",
+      "price": 30,
+      "category": "Shorts",
+      "image": "https://m.media-amazon.com/images/I/61vVXZTa74L._AC_UL320_.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Exercise Ball",
+      "description": "Sturdy exercise ball for core strengthening and stability exercises.",
+      "price": 20,
+      "category": "Core Training",
+      "image": "https://m.media-amazon.com/images/I/8140rArOM8L._AC_UL320_.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Running Jacket",
+      "description": "Face the elements head-on with our lightweight and water-resistant running jacket.",
+      "price": 50,
+      "category": "Jackets",
+      "image": "https://m.media-amazon.com/images/I/51Fo6N7xDKL._AC_UL320_.jpg"
+    },
+    {
+      "id": 7,
+      "name": "NOW Sports Nutrition, Whey Protein Isolate",
+      "description": "25 g With BCAAs, Unflavored Powder, 5-Pound",
+      "price": 75,
+      "category": "Whey",
+      "image": "https://m.media-amazon.com/images/I/71gwmu0UtbL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Optimum Nutrition Amino Energy Powder",
+      "description": "with BCAA, Electrolytes, and Caffeine, Watermelon Splash, 30 Servings",
+      "price": 24,
+      "category": "Amino",
+      "image": "https://m.media-amazon.com/images/I/61aaWGnxClL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Sports Research Triple Strength Omega 3",
+      "description": "Burpless Fish Oil Supplement w/EPA & DHA Fatty Acids from Single-Source Wild Alaskan Pollock - 1250 mg, 90 ct",
+      "price": 26,
+      "category": "Softgel",
+      "image": "https://m.media-amazon.com/images/I/61PbU2-L88L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Performance Tank Top",
+      "description": "Keep cool and comfortable during intense workouts with our breathable performance tank top.",
+      "price": 20,
+      "category": "Tops",
+      "image": "https://m.media-amazon.com/images/I/71JPTWOiJVL._AC_UL320_.jpg"
+    }
+  ],
+  "productSlider": [
+    {
+      "id": 1,
+      "name": "Dumbbells",
+      "description": "Build strength and tone muscles with our durable dumbbells.",
+      "price": 50,
+      "category": "Strength Training",
+      "image": "https://m.media-amazon.com/images/I/81gnxptnqWL._AC_UL320_.jpg",
+      "color": [
+        "Black",
+        "Silver",
+        "Red"
+      ],
+      "sale": 20,
+      "percent": 20
+    },
+    {
+      "id": 2,
+      "name": "Yoga Mat",
+      "description": "Premium yoga mat for comfortable and non-slippery practice.",
+      "price": 35,
+      "category": "Yoga & Pilates",
+      "image": "https://m.media-amazon.com/images/I/71aaK-w9tbL._AC_UL320_.jpg",
+      "color": [
+        "Black",
+        "#ce9a91"
+      ],
+      "sale": 20
+    },
+    {
+      "id": 3,
+      "name": "Performance Leggings",
+      "description": "Stay comfortable and stylish during your workouts with our performance leggings.",
+      "price": 40,
+      "category": "Leggings",
+      "image": "https://m.media-amazon.com/images/I/416599WvpjL._AC_UL320_.jpg",
+      "sale": 20
+    },
+    {
+      "id": 4,
+      "name": "Athletic Shorts",
+      "description": "Get ready to hit the gym or the track in our comfortable and durable athletic shorts.",
+      "price": 30,
+      "category": "Shorts",
+      "image": "https://m.media-amazon.com/images/I/61vVXZTa74L._AC_UL320_.jpg",
+      "sale": 20
+    },
+    {
+      "id": 5,
+      "name": "Exercise Ball",
+      "description": "Sturdy exercise ball for core strengthening and stability exercises.",
+      "price": 20,
+      "category": "Core Training",
+      "image": "https://m.media-amazon.com/images/I/8140rArOM8L._AC_UL320_.jpg",
+      "sale": 20
+    },
+    {
+      "id": 6,
+      "name": "Running Jacket",
+      "description": "Face the elements head-on with our lightweight and water-resistant running jacket.",
+      "price": 50,
+      "category": "Jackets",
+      "image": "https://m.media-amazon.com/images/I/51Fo6N7xDKL._AC_UL320_.jpg",
+      "sale": 20
+    },
+    {
+      "id": 7,
+      "name": "NOW Sports Nutrition, Whey Protein Isolate",
+      "description": "25 g With BCAAs, Unflavored Powder, 5-Pound",
+      "price": 75,
+      "category": "Whey",
+      "image": "https://m.media-amazon.com/images/I/71gwmu0UtbL._AC_SL1500_.jpg",
+      "sale": 50
+    },
+    {
+      "id": 8,
+      "name": "Optimum Nutrition Amino Energy Powder",
+      "description": "with BCAA, Electrolytes, and Caffeine, Watermelon Splash, 30 Servings",
+      "price": 24,
+      "category": "Amino",
+      "image": "https://m.media-amazon.com/images/I/61aaWGnxClL._AC_SL1500_.jpg",
+      "sale": 20
+    },
+    {
+      "id": 9,
+      "name": "Sports Research Triple Strength Omega 3",
+      "description": "Burpless Fish Oil Supplement w/EPA & DHA Fatty Acids from Single-Source Wild Alaskan Pollock - 1250 mg, 90 ct",
+      "price": 26,
+      "category": "Softgel",
+      "image": "https://m.media-amazon.com/images/I/61PbU2-L88L._AC_SL1500_.jpg",
+      "sale": 30
+    },
+    {
+      "id": 10,
+      "name": "Performance Tank Top",
+      "description": "Keep cool and comfortable during intense workouts with our breathable performance tank top.",
+      "price": 20,
+      "category": "Tops",
+      "image": "https://m.media-amazon.com/images/I/71JPTWOiJVL._AC_UL320_.jpg",
+      "sale": 10
+    }
+  ]
 }

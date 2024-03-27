@@ -65,7 +65,7 @@ export default function Slider() {
           size={30}
         />
       </div>
-      <div className="flex justify-center top-4 py-2 ">
+      <div className="flex justify-center top-4 py-2">
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}

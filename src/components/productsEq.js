@@ -37,7 +37,7 @@ export default function Products({ addToCart }) {
         {productsData.equipment.map((product, index) => (
           <div key={index} className="">
             <div
-              className="container-item w-60 p-2 relative cursor-pointer"
+              className="container-item w-60 p-2 relative cursor-pointer border border-gray-300 rounded-3xl"
               onClick={() => handleProductClick(product)}
             >
               <img
